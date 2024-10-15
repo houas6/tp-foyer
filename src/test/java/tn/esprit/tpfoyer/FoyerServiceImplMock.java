@@ -1,12 +1,20 @@
 package tn.esprit.tpfoyer.service;
 
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
+import tn.esprit.tpfoyer.entity.Foyer;
 import tn.esprit.tpfoyer.repository.FoyerRepository;
 
+import java.util.Arrays;
+import java.util.List;
+import java.util.Optional;
+
 import static org.mockito.Mockito.*;
-@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-@ExtendWith(MockitoExtension.class)
+import static org.junit.jupiter.api.Assertions.*;
+
 public class FoyerServiceImplMock {
 
     @Mock
