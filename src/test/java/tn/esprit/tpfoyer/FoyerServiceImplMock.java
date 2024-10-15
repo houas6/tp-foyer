@@ -1,6 +1,6 @@
 package tn.esprit.tpfoyer.service;
 
-import org.junit.jupiter.api.MethodOrderer;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
 import org.junit.jupiter.api.extension.ExtendWith;
